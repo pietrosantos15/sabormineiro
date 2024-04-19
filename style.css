@@ -1,0 +1,413 @@
+/*    reset */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+text-decoration: none;
+font-family: "Reddit Mono," monospace;
+font-optical-sizing: auto;
+font-weight: 10;
+font-style: normal;
+
+x
+
+
+
+}
+
+
+
+body {
+    min-height: 100vh;
+}
+
+
+
+#linha_topo{
+position: fixed;
+width: 100%;
+top: 0;
+background-color:#ece4d4;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+font-family: "Anek-Bangla", sans-serif;
+border: 5px;
+z-index: 1000;
+
+
+}
+
+header{
+margin-top: 1%;
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-family: "Anek-Bangla", sans-serif;
+font-weight: bold;
+border: 5px
+
+
+
+}
+
+header figure{
+
+margin-right: 2%;
+margin-top: -1%;
+width: 170px; /* Largura do quadrado */
+height: 150px; /* Altura do quadrado */
+background-image: url(logosabor.jpeg); 
+background-size: cover; /* Ajusta a imagem para cobrir todo o quadrado */
+background-position: center; /* Centraliza a imagem dentro do quadrado */
+border-radius: 50%;
+object-fit:cover
+}
+
+header h1{
+font-size: 80px;
+color:rgb(97, 50, 13);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+font-weight: 300;
+font-family: "Kanit"
+
+
+}
+
+nav{
+
+display: flex;
+justify-content: center;
+background-color: #00000055;
+
+
+
+}
+
+nav ul{
+list-style: none;
+
+
+
+}
+nav ul li{
+display: inline;
+
+
+
+}
+
+nav ul li a{
+display: inline-block;
+padding: 12px 20px;
+color:rgb(255, 255, 255);
+font-family:"Anek-Bangla", sans-serif;
+font-size: 18px;
+font-weight: bold;
+
+
+
+
+}
+
+nav ul li a:hover{
+background-color:rgb(0, 0, 0);
+
+}
+
+main{
+margin-top:190px;
+
+
+
+}
+
+#parte1{
+min-height:100vh;
+text-align: right;
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: space-around;
+align-items: start;
+flex-direction: row;
+
+
+}
+
+#parte2 {
+    min-height:100vh;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+    
+}
+
+#parte3{
+    min-height:100vh;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+    
+}
+
+#parte4{
+    min-height:100vh;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+    
+}
+
+
+
+section ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.card {
+width: 300px;
+color: #ffffff;
+background-color: 	#5C4033;
+border: 1px solid rgb(255, 255, 255);
+padding: 5px;
+margin: 30px;
+border-radius: 10px;
+box-shadow: 1px 1px 20px #000000;
+display:flex;
+flex-direction: column;
+transition: transform 0.3s ease-in-out;
+margin-left: 3%;
+margin: 10 85px;
+margin-bottom: 60px;
+
+
+
+}
+
+
+
+.card figure img{
+width: 280px;
+height: 280px;
+border-radius: 10px;
+justify-content: flex-start;
+margin-right:4px
+
+
+}
+
+.card h2 {
+height: 50px;
+display: flex;
+text-align:center;
+justify-content:Center;
+font-family: "Anek-Bangla", sans-serif;
+margin-top: 5%;
+color:rgb(255, 255, 255);
+
+}
+
+.card p{
+font-family: "Anek-Bangla", sans-serif;
+margin-bottom: 1%;
+color:rgb(255, 255, 255);
+text-align: right;
+margin-right: 5%;
+padding-top: 20px;
+justify-content: space-between;
+font-size: 30px;
+font-family:"Nunito", serif;
+white-space: pre-wrap;
+margin-left: 5%;
+text-align:left;
+font-size: 20px;
+}
+
+.letra{
+color:green
+}
+
+.card-content {
+padding: 10px;
+}
+
+.card-content h3 {
+margin-top: 0;
+}
+
+.card-content p {
+margin-bottom: 0;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+.destaque {
+color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+font-size: 30px;
+
+}
+
+.botao-comprar {
+background-color: #4CAF50; /* Cor de fundo do botão */
+color: white; /* Cor do texto do botão */
+padding: 10px 20px; /* Espaçamento interno do botão */
+font-size: 16px; /* Tamanho da fonte */
+border: none; /* Remover borda */
+border-radius: 5px; /* Bordas arredondadas */
+cursor: pointer; /* Cursor do mouse */
+text-align: bottom; /* Alinhamento do texto */
+text-decoration: none; /* Remover sublinhado */
+display: inline-block; /* Exibir como bloco inline */
+transition: background-color 0.3s ease; /* Transição suave */
+margin-top:70px;
+
+}
+
+.botao-comprar:hover {
+background-color: #45a049; /* Mudar a cor de fundo ao passar o mouse */
+}
+
+footer{
+height: 200px;
+background-color: #ece4d4;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+padding: 10px;
+font-family: "Kanit";
+color:rgb(97, 50, 13);
+
+
+}
+
+footer figure{
+width:20%;
+border-radius: 50%;
+}
+
+footer figure img{
+width: 190px; /* Largura do quadrado */
+height: 150px; /* Altura do quadrado */
+border-radius: 50%;
+margin-left: 10%;
+}
+
+
+.footer-informacoes {
+height: 100px;
+width: 20%
+}
+
+.footer-informacoes h3 {
+
+font-size: 25px;
+font-weight: 300;
+}
+
+.footer-informacoes p {
+font-size: 16px;
+font-weight:300;
+}
+
+.footer-localizacao{
+font-size: 16px;
+font-weight:300;
+width: 20%;
+
+}
+
+.footer-localizacao h3{
+font-size: 25px;
+font-weight:300;
+
+
+}
+
+.footer-localizacao p{
+font-size: 16px;
+font-weight:300;
+width: 250px;
+margin-bottom: 5%;
+}
+.footer-contato{
+width: 20%;
+}
+
+.footer-contato h3 {
+font-size: 25px;
+font-weight:300;
+}
+
+.footer-contato p {
+font-size: 16px;
+font-weight:300;
+margin-bottom: 3%;
+}
+
+.footer-social {
+width: 20%;
+}
+
+.footer-social h3 {
+
+font-size: 25px;
+font-weight:300;
+}
+
+.footer-social ul {
+list-style: none;
+}
+
+.footer-social p {
+font-weight:300;
+margin-bottom: -5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
